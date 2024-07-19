@@ -1,0 +1,12 @@
+#FooterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1E2831;
+    margin-top: 10%;
+}
+#FooterContainer.light-mode{
+    background-color: var(--light-secondary-color);
+
+}
