@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "@/components/ThemeContext";
-
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Aneesh Patne - Professional Portfolio",
@@ -20,7 +20,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>{children}
+          <Footer />
+        </ThemeProvider>
         </body>
     </html>
   );

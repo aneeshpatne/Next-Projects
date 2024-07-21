@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import NameCompoenent from "@/components/Name";
 import Aboutme from "@/components/About";
 import Skills from "@/components/Skills";
+import Project from "@/components/Project";
 export default function Home() {
   return (
 <>
@@ -11,6 +12,7 @@ export default function Home() {
 <NameCompoenent />
 <Aboutme />
 <Skills />
+<Project />
 </>
 
   );
